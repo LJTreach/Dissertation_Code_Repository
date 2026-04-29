@@ -19,7 +19,6 @@ static const uint32_t BENCHMARK_MS   = 60000;
 // ------------------------------------------------------------
 // 32x32 grayscale image from input_32x32.mem
 // Stored in flash memory (PROGMEM), not SRAM
-// Paste the same 1024-byte IMG array used in the active sketch
 // ------------------------------------------------------------
 const uint8_t IMG[W * H] PROGMEM = {
   16, 17, 16, 16, 17, 17, 16, 16, 16, 17, 16, 16, 17, 17, 17, 16,
