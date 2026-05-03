@@ -11,7 +11,7 @@ INPUT_IMAGE = Path(r"C:\FPGA\sobel_diss_v2\CPU\data\1_ImageInputFolder\Test_Imag
 OUTPUT_IMAGE = Path(r"C:\FPGA\sobel_diss_v2\CPU\data\cpu_edges_32x32_data_collection.png")
 
 THRESHOLD = 120
-RUN_SECONDS = 5.0
+RUN_SECONDS = 60.0
 WARMUP_RUNS = 50
 # ------------------------------------------------------------
 
